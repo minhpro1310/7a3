@@ -1,9 +1,10 @@
 body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Karla', sans-serif;
   text-align: center;
-  background-image: url("https://i.pinimg.com/originals/86/45/80/864580d6f1fa8d2d0e96247124289887.jpg");
+  background-image: url("https://phunugioi.com/wp-content/uploads/2020/02/mau-background-dep.jpg");
   background-size: 1920px 1080px;
   left: 800px;
+  color: white;
 }
 
 ul {
@@ -26,16 +27,18 @@ li {
 
 li a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition: 200ms;
 }
 
 li a:hover {
   color: white;
   background-color: black;
   font-weight: bold;
+  transform:scale(1.2,1.2);
 }
 .active {
   background-color: #58257b;
