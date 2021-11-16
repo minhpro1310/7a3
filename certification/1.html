@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <title>
+            Password
+        </title>
+    </head>
+    <body>
+      <!--
+        Cái này để làm màu thôi chứ mò sourcecode là biết liền =)
+      -->
+        <script>
+            //Lưu giá trị (biến)
+            var pass = prompt("Nhâp mật khẩu:");
+            var Credit = "Created by Q Minh";
+
+            //Pass đúng          
+            if (pass == "minhwadepzai"){
+                document.write("Link: https://minhdzvietnam.tk");
+                console.log("password correct");
+            }
+        
+            //Lấy mk khi quên
+            else if (pass == "quenmkcmnr"){
+                document.write("<p>Mk: minhwadepzai</p>");
+                console.log("password is minhwadepzai");
+            }
+
+            //Sai MK
+            else{
+                document.write("mày sai rồi thằng ngu");
+                console.log("password incorrect");
+                console.log("you can refresh to re-enter the password");
+            }
+
+        </script>
+        <footer>
+            <input type="button" id="credit" value="Credit" onclick="alert(Credit);"/>
+        </footer>
+      <!--
+      License:
+      © Copyright 2021 | Powered by qminh, hosted by GitHub, domain by Freenom, DDoS protection by Cloudflare 
+      -->
+        <style>
+            body{
+                text-align: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 36px;
+            }
+        </style>
+    </body>
+</html>
