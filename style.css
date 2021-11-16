@@ -5,6 +5,7 @@ body{
   background-size: 1920px 1080px;
   left: 800px;
   color: white;
+  background-attachment: fixed;
 }
 
 ul {
