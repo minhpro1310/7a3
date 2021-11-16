@@ -33,6 +33,10 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   transition: 200ms;
+  
+  #float-right{
+    float: right;
+  }
 }
 
 li a:hover {
