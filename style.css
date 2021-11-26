@@ -50,13 +50,4 @@ li a:hover {
   color: white;
   font-weight: bold;
 }
-footer{
-   position: relative;
-     width: 100%;
-     height: auto;
-     padding: 50px 100px;
-     background: #111;
-     display: flex;
-     justify-content: space-between;
-     flex-wrap: wrap;
-}
+
